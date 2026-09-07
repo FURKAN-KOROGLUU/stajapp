@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { DataSource, Repository } from 'typeorm';
-import { User } from './user.entity';
+import { User } from './user.entity.js';
 
 // Bu sınıfın NestJS servislerine (AuthService vb.) enjekte edilebilmesini sağlar
 @Injectable()
